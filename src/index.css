@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -6,9 +8,14 @@
     background-color: #fff;
     border-radius: 10px;
     height: 6px;
-    width: 6px;
+    width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background: #7AC7FF;
+    background: linear-gradient(black, black , #0f9b0f) ;
     border-radius: 10px;
+}
+@layer base{
+    html{
+        font-family: 'Poppins', sans-serif;
+    }
 }

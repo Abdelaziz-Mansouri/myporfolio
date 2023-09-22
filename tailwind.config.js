@@ -11,7 +11,7 @@ module.exports = {
           paragraph : '#f2f3f8'
         },
         fontFamily: {
-          'sans': ["Poppins", "sans-serif"],
+          signature: ['Chakra Petch'],
         },
       },
       screens: {
