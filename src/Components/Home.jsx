@@ -4,6 +4,7 @@ import Rondegrad from '../assets/last.png'
 import Profile from '../assets/profile.png'
 import style from '../style'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
+import {FaLaptopCode} from 'react-icons/fa'
 
 const Home = () => {
   return (
@@ -26,6 +27,19 @@ const Home = () => {
             <div className='lg:w-1/2 sm:w-full flex justify-center'>
                 <div className=''>
                     <img src={Profile} alt='Abdelaziz Mansouri' className='bg-black rounded-full mx-auto w-2/3 md:w-full '/>
+                    <div className='relative'>
+                        <div className='xs:hidden md:absolute bottom-[150px] left-[-120px] md:flex justify-between items-center bg-gradient-to-l from-black via-black to-primary text-white w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
+                            <h2 className='text-4xl'>01</h2>
+                            <div className='flex flex-col '>
+                                <p>Year of </p>
+                                <p>Experience</p>
+                            </div>
+                        </div>
+                        <div className='xs:hidden md:absolute top-[-400px] right-[-100px] md:flex justify-between items-center bg-gradient-to-b from-black   to-primary02 text-white w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
+                            <FaLaptopCode size={30}/>
+                            <p>Developer</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
