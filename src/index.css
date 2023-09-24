@@ -19,3 +19,7 @@
         font-family: 'Poppins', sans-serif;
     }
 }
+.green__gradient {
+    background: linear-gradient(90deg, rgba(15, 155, 15, 0.5) 0%, #0f9b0f 100%);
+    filter: blur(900px);
+  }

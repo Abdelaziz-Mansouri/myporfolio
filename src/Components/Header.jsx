@@ -27,7 +27,7 @@ const Header = () => {
     }
   ]
   return (
-    <div className='h-20 bg-black flex justify-between items-center text-white px-[50px] w-full fixed'>
+    <div className='h-20 bg-black flex justify-between items-center text-white px-[50px] w-full fixed z-[1000]'>
         <LogoGradient width="40" height='40'/>
         <ul className='hidden md:flex gap-[10px]'>
           {

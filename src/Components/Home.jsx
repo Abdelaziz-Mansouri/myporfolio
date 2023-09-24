@@ -1,6 +1,4 @@
 import React from 'react'
-import { Ronde } from '../assets'
-import Rondegrad from '../assets/last.png'
 import Profile from '../assets/profile.png'
 import style from '../style'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
@@ -35,7 +33,7 @@ const Home = () => {
                                 <p>Experience</p>
                             </div>
                         </div>
-                        <div className='xs:hidden md:absolute top-[-400px] right-[-100px] md:flex justify-between items-center bg-gradient-to-b from-black   to-primary02 text-white w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
+                        <div className='xs:hidden md:absolute top-[-500px] right-[-10px] md:flex justify-between items-center bg-gradient-to-b from-black   to-primary02 text-white w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
                             <FaLaptopCode size={30}/>
                             <p>Developer</p>
                         </div>
