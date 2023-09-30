@@ -6,7 +6,7 @@ import {FaLaptopCode} from 'react-icons/fa'
 
 const Home = () => {
   return (
-    <div name="home" className='bg-gradient-to-b from-black via-black to-primary h-screen mt-20'>
+    <div name="home" className='bg-gradient-to-b from-black via-black to-primary mt-20 py-10'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row'>
             <div className='text-white flex flex-col justify-center h-full  text-center'>
                 <h1 className='font-signature text-4xl sm:text-7xl'>

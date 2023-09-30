@@ -4,6 +4,12 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
 ::-webkit-scrollbar{
     background-color: #fff;
     border-radius: 10px;
