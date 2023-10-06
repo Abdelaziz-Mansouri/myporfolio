@@ -24,7 +24,7 @@ const SocialLinks = () => {
             child :(
                 <>Mail <HiOutlineMail size={30}/></>
             ),
-            href : 'azizmansourish@gmail.com',
+            href : 'mailto:azizmansourish@gmail.com',
             style : 'border-r-[1px] md:border-none'
         },
         {
@@ -40,10 +40,10 @@ const SocialLinks = () => {
     <div className='flex md:flex-col md:top-[35%] md:left-0 md:fixed md:z-[100] text-title'>
         <ul className='w-full flex md:flex-col '>
             {
-                links.map((link) => ( 
-                    <li key={link.id} className={`flex justify-between items-center w-1/4 md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-dark md:bg-primary02 ${link.style} `}>
-                        <a href={link.href} target='_blank' rel='noreferrer' className={`flex justify-between items-center w-full text-title`}>
-                            {link.child}
+                links.map(({id , child , href ,style}) => ( 
+                    <li key={id} className={`flex justify-between items-center w-1/4 md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-dark md:bg-primary02 ${style} `}>
+                        <a href={href} target='_blank' rel='noreferrer' className={`flex justify-between items-center w-full text-title`}>
+                            {child}
                         </a>
                     </li>
                 ))
