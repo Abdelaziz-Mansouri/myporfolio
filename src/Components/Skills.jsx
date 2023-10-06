@@ -1,7 +1,4 @@
 import React from 'react'
-import P2P from '../assets/p2p.png'
-import ABHM from '../assets/Dashboard.png'
-import Movie from '../assets/Home1.png'
 import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
 const Skills = () => {
@@ -57,11 +54,11 @@ const Skills = () => {
         },
       ]
   return (
-    <div name="works" className='bg-primary flex flex-col py-6 px-24 md:px-28 text-title'>
+    <div name="about" className='bg-primary min-h-screen flex flex-col py-6 px-24 md:px-28 text-title'>
         <div className='flex justify-start py-6 text-title '>
               <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>ABOUT</h2>
         </div>
-        <div className='text-2xl py-4 w-full sm:w-2/3 px-10 sm:px-4 text-center leading-10'>
+        <div className='text-2xl py-4 w-full md:w-2/3 px-10 sm:px-4 text-center leading-10'>
             A highly skilled and experienced Front-end Developer with a passion for crafting 
             elegant and user-friendly web interfaces. With 2 years of hands-on experience in 
             front-end development, I have honed my skills in HTML, CSS, and JavaScript to create 

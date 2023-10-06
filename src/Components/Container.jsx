@@ -6,6 +6,7 @@ import AllCreativeWorks from './AllCreativeWorks'
 import Skills from './Skills'
 import Contact from './Contact'
 import Footer from './Footer'
+import ScrollToTop from 'react-scroll-to-top'
 const Container = () => {
   return (
     <div className='w-[100%] flex flex-col'>
@@ -16,6 +17,7 @@ const Container = () => {
       <AllCreativeWorks/>
       <Contact/>
       <Footer/>
+      <ScrollToTop className='!bg-title !rounded-full !flex !items-center !justify-center !transition-all !duration-2000' color='#0f9b0f'  smooth top={400} />
     </div>
   )
 }

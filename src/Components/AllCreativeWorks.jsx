@@ -46,7 +46,7 @@ const AllCreativeWorks = () => {
     },
   ]
   return (
-    <div name="works" className='bg-gradient-to-b from-primary via-dark to-primary flex flex-col py-6 px-24 md:px-28'>
+    <div name="portfolio" className='min-h-screen bg-gradient-to-b from-primary via-dark to-primary flex flex-col justify-center py-6 px-24 md:px-28'>
       <div className='flex justify-start py-6 text-title '>
             <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>PORTFOLIO</h2>
       </div>

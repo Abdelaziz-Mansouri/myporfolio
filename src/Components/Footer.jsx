@@ -8,7 +8,7 @@ const Footer = () => {
                 &copy;
                 <span className="font-extralight text-sm md:text-xs md:text-center">
                     2023 Abdelaziz Mansouri is Powered by  
-                    <a href="https://www.upwork.com/freelancers/~01a253c8b5d0dbde88" target="_blank" className="text-primary underline hover:brightness-105">
+                    <a href="https://www.upwork.com/freelancers/~01a253c8b5d0dbde88" target="_blank" rel="noreferrer" className="text-primary underline hover:brightness-105">
                         ABDELAZIZ
                     </a>
                 </span>

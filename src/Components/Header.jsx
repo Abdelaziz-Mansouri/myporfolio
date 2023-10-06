@@ -1,38 +1,37 @@
 import React, { useState } from 'react'
 import {LogoGradient} from '../assets/index'
 import {FaBars , FaTimes} from 'react-icons/fa'
+import { Link } from 'react-scroll'
 const Header = () => {
   const [nav , setNav] = useState(false)
   const links = [
     {
       id:1 ,
-      link: 'Home'
+      link: 'home'
     },
     {
       id:2 ,
-      link: 'Portfolio'
+      link: 'about'
     },
-    ,
     {
       id:3 ,
-      link: 'About us'
+      link: 'portfolio'
     },
+    
     {
       id:4 ,
-      link: 'Testimonials'
-    },
-    {
-      id:5 ,
       link: 'contact'
     }
   ]
   return (
     <div className='h-20 bg-dark flex justify-between items-center text-title px-24 md:px-28 w-full fixed z-[1000]'>
-        <LogoGradient width="40" height='40'/>
+        <LogoGradient width="50" height='50'/>
         <ul className='hidden md:flex gap-[10px]'>
           {
-            links.map((li) => (
-              <li key={li.id} className='px-4 cursor-pointer capitalize font-medium hover:scale-150 duration-200 hover:text-primary'>{li.link}</li>
+            links.map(({id , link}) => (
+              <li key={id} className='px-4 cursor-pointer capitalize font-medium hover:scale-150 duration-200 hover:text-primary'>
+                <Link to={link} smooth duration={500}>{link}</Link>
+              </li>
             ))
           }
         </ul>
@@ -42,8 +41,10 @@ const Header = () => {
         {nav && 
           <ul className=' flex flex-col  justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'>
             {
-              links.map((li) => (
-                <li key={li.id} className='px-4  py-6 cursor-pointer capitalize text-4xl'>{li.link}</li>
+              links.map(({id , link}) => (
+                <li key={id} className='px-4  py-6 cursor-pointer capitalize text-4xl'>
+                  <Link onClick={() => { setNav(!nav) }} to={link} smooth duration={500}>{link}</Link>
+                </li>
               ))
             }
           </ul>
