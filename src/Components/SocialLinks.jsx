@@ -9,21 +9,23 @@ const SocialLinks = () => {
                 <>Linkedin <FaLinkedin size={30}/></>
             ),
             href : 'https://www.linkedin.com/in/abdelaziz-mansouri-210380257/',
-            style : 'rounded-tr-md'
+            style : 'md:rounded-tr-md border-r-[1px] md:border-none'
         },
         {
             id:2 , 
             child :(
                 <>Github <FaGithub size={30}/></>
             ),
-            href : 'https://github.com/Abdelaziz-Mansouri'
+            href : 'https://github.com/Abdelaziz-Mansouri',
+            style : 'border-r-[1px] md:border-none'
         },
         {
             id:3 , 
             child :(
                 <>Mail <HiOutlineMail size={30}/></>
             ),
-            href : 'azizmansourish@gmail.com'
+            href : 'azizmansourish@gmail.com',
+            style : 'border-r-[1px] md:border-none'
         },
         {
             id:4 , 
@@ -31,22 +33,21 @@ const SocialLinks = () => {
                 <>Instagram <FaInstagram size={30}/></>
             ),
             href : 'https://www.instagram.com/abdelaziz_mansouri48/',
-            style : 'rounded-br-md'
+            style : 'md:rounded-br-md'
         }
     ]
   return (
-    <div className='hidden lg:flex flex-col top-[35%] left-0 fixed z-[100] text-white'>
-        <ul >
+    <div className='flex md:flex-col md:top-[35%] md:left-0 md:fixed md:z-[100] text-title'>
+        <ul className='w-full flex md:flex-col '>
             {
                 links.map((link) => ( 
-                    <li key={link.id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-primary02 ${link.style}`}>
-                        <a href={link.href} target='_blank' rel='noreferrer' className={`flex justify-between items-center w-full text-white`}>
+                    <li key={link.id} className={`flex justify-between items-center w-1/4 md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-dark md:bg-primary02 ${link.style} `}>
+                        <a href={link.href} target='_blank' rel='noreferrer' className={`flex justify-between items-center w-full text-title`}>
                             {link.child}
                         </a>
                     </li>
                 ))
             }
-            
         </ul>
     </div>
   )
