@@ -24,7 +24,7 @@ const Header = () => {
     }
   ]
   return (
-    <div className='h-20 bg-dark flex justify-between items-center text-title px-24 md:px-28 w-full fixed z-[1000]'>
+    <div className='h-20 bg-dark flex justify-between items-center text-title px-2 sm:px-24 md:px-28 w-full fixed z-[1000]'>
         <LogoGradient width="50" height='50'/>
         <ul className='hidden md:flex gap-[10px]'>
           {
@@ -39,7 +39,7 @@ const Header = () => {
           {nav ? <FaTimes size={30} /> : <FaBars size={30}/> }
         </div>
         {nav && 
-          <ul className=' flex flex-col  justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'>
+          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'>
             {
               links.map(({id , link}) => (
                 <li key={id} className='px-4  py-6 cursor-pointer capitalize text-4xl'>

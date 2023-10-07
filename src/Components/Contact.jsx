@@ -18,7 +18,7 @@ const Contact = () => {
         });
      }
   return (
-    <div name="contact" className="py-6 px-24 md:px-28 relative bg-gradient-to-b from-primary via-dark to-dark flex flex-col justify-center">
+    <div name="contact" className="py-6 px-2 sm:px-24 md:px-28 relative bg-gradient-to-b from-primary via-dark to-dark flex flex-col justify-center">
         <div className='flex justify-start py-6 text-title '>
               <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>CONTACT</h2>
         </div>

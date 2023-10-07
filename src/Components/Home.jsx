@@ -7,7 +7,7 @@ import { Link } from 'react-scroll'
 
 const Home = () => {
   return (
-    <div name="home" className=' bg-gradient-to-b min-h-screen from-dark via-dark to-primary mt-20 py-10 px-24 md:px-28 flex items-center' >
+    <div name="home" className=' bg-gradient-to-b xl:min-h-screen from-dark via-dark to-primary mt-20 py-10 px-2 sm:px-24 md:px-28 flex items-center' >
         <div className='w-full lg:w-9/10 mx-auto flex flex-col gap-5 items-center justify-center h-full px-4 lg:flex-row md:justify'>
             <div className='text-title flex flex-col justify-center h-full  text-center'>
                 <h1 className='font-signature text-4xl sm:text-7xl'>
