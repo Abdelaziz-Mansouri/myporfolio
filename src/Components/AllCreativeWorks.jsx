@@ -2,6 +2,7 @@ import React from 'react'
 import P2P from '../assets/p2p.png'
 import ABHM from '../assets/Dashboard.png'
 import Movie from '../assets/Home1.png'
+import Elearning from '../assets/elearning.png'
 import {FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
 const AllCreativeWorks = () => {
@@ -36,7 +37,7 @@ const AllCreativeWorks = () => {
     },
     {
       id: 4,
-      img :P2P,
+      img : Elearning,
       title : 'E-Learning',
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>HTML</span><FaHtml5 size={24} fill='#f06529'/></div>),
