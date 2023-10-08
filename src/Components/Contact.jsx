@@ -4,6 +4,8 @@ import SuccesPopup from './SuccesPopup';
 
 const Contact = () => {
     const form = useRef();
+    const name = useRef();
+    const email = useRef();
     const [done , setDone] = useState(false)
     const close = () => { setDone(!done) }
     const sendEmail =(e) => { 
@@ -16,7 +18,8 @@ const Contact = () => {
         }, (error) => {
             console.log(error.text);
         });
-     }
+        
+    }
   return (
     <div name="contact" className="py-6 px-2 sm:px-24 md:px-28 relative bg-gradient-to-b from-primary via-dark to-dark flex flex-col justify-center">
         <div className='flex justify-start py-6 text-title '>
@@ -32,10 +35,10 @@ const Contact = () => {
                 <div className="flex-1 w-full md:w-[calc(50%-2rem)]">
                     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2 w-full text-title">
                         <div className="">
-                            <input type='text' name='user_name' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Name" />
+                            <input type='text' required  ref={name} name='user_name' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Name" />
                         </div>
                         <div className="">
-                            <input type="email" name='user_email' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Email" />
+                            <input type="email" required ref={email} name='user_email' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Email" />
                         </div>
                         <div className="">
                             <textarea rows="4" name='message' className="border border-paragraph border-opacity-10 rounded-lg outline-none
