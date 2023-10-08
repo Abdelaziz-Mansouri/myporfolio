@@ -26,7 +26,7 @@ const Contact = () => {
             <div className="flex justify-between items-center w-full gap-8 flex-wrap">  
                 <div className='flex flex-col w-full md:w-[calc(50%-2rem)] text-title'>
                     <p className='text-sm py-4'>A front-end developer knows he has achieved perfection not when there is nothing left <span className='bg-title text-primary'> to add </span> , but when there is nothing left to take away</p>
-                    <p className='text-sm py-8 text-primary02'>If you would like to work with us or just want to get in touch, we'd love to hear from you!</p>
+                    <p className='text-sm py-8 text-primary02'>There are three responses to a piece of design - yes, no, and WOW! Wow is the one to aim for</p>
                     <a href="//api.whatsapp.com/send?phone=212615322577" target='_blank' rel="noreferrer" className='text-primary underline text-lg'><h2 className=''>+21261532577</h2></a>
                 </div>
                 <div className="flex-1 w-full md:w-[calc(50%-2rem)]">
