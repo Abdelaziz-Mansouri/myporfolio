@@ -9,6 +9,7 @@ const AllCreativeWorks = () => {
   const portfolios = [
     {
       id: 1,
+      link : 'https://p2p.marrakechinvest.ma/' ,
       img : P2P ,
       title : 'Marrakech P2P',
       languages : [
@@ -19,6 +20,7 @@ const AllCreativeWorks = () => {
     },
     {
       id: 2,
+      link : '#' ,
       img : ABHM ,
       title : 'Information System',
       languages : [
@@ -28,6 +30,7 @@ const AllCreativeWorks = () => {
     },
     {
       id: 3,
+      link : '#' ,
       img : Movie,
       title : 'Movie 4 You',
       languages : [
@@ -37,6 +40,7 @@ const AllCreativeWorks = () => {
     },
     {
       id: 4,
+      link : '#' ,
       img : Elearning,
       title : 'E-Learning',
       languages : [
@@ -56,9 +60,9 @@ const AllCreativeWorks = () => {
             <p className='text-lg py-4 text-center w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
       </div>
       <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title'>
-        {portfolios.map(({id , img , title , languages}) => (
+        {portfolios.map(({id , link , img , title , languages}) => (
             <div key={id} className='flex flex-col w-full sm:w-[calc(50%-30px)] lg:w-[calc(33%-30px)]'>
-              <img src={img} alt={title} className='rounded-3xl w-full duration-200 hover:scale-105'/>
+              <a href={link} target='_blank' rel="noreferrer"><img src={img} alt={title} className='rounded-3xl w-full duration-200 hover:scale-105'/></a>
               <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
               <div className='flex justify-between '>
                 {languages.map((language , index) => (
