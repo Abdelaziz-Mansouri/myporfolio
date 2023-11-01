@@ -34,7 +34,7 @@ const Home = () => {
                                 <p>Experience</p>
                             </div>
                         </div>
-                        <div className='hidden md:absolute md:top-[-500px] md:right-[10px] md:flex justify-between items-center bg-gradient-to-r  md:bg-gradient-to-b from-dark to-primary md:to-primary02 text-title w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
+                        <div className='hidden md:absolute md:top-[-450px] md:right-[-50px] md:flex justify-between items-center bg-gradient-to-r  md:bg-gradient-to-b from-dark to-primary md:to-primary02 text-title w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
                             <FaLaptopCode size={30}/>
                             <p>Developer</p>
                         </div>
