@@ -1,5 +1,5 @@
 import React from 'react'
-import Profile from '../assets/profile.png'
+import Profile from '../assets/profile4.png'
 import style from '../style'
 import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import {FaLaptopCode} from 'react-icons/fa'
