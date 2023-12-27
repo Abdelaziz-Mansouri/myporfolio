@@ -3,6 +3,7 @@ import P2P from '../assets/p2p.png'
 import ABHM from '../assets/Dashboard.png'
 import Movie from '../assets/Home1.png'
 import Elearning from '../assets/elearning.png'
+import Cyprog from '../assets/cyprog.png'
 import {FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
 const AllCreativeWorks = () => {
@@ -47,6 +48,16 @@ const AllCreativeWorks = () => {
         (<div className='flex items-center gap-1 py-1 px-1'><span>HTML</span><FaHtml5 size={24} fill='#f06529'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>BOOTSTRAP</span><FaBootstrap size={24} fill='#712cf9'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>Javascript</span><SiJavascript size={24} fill='yellow'/></div>)
+      ]
+    },
+    {
+      id: 5,
+      link : 'https://abdelaziz-mansouri.github.io/cyprog' ,
+      img : Cyprog,
+      title : 'Cyprog gaming',
+      languages : [
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>BOOTSTRAP</span><FaBootstrap size={24} fill='#712cf9'/></div>)
       ]
     },
   ]
