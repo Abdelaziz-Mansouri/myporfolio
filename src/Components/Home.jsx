@@ -30,7 +30,7 @@ const Home = () => {
                         <div className='hidden md:absolute md:bottom-[150px] md:left-[-120px] md:flex justify-between items-center bg-gradient-to-l from-dark via-dark to-primary text-title w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'>
                             <h2 className='text-4xl'>02</h2>
                             <div className='flex flex-col '>
-                                <p>Year of </p>
+                                <p>Years of </p>
                                 <p>Experience</p>
                             </div>
                         </div>

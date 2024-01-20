@@ -73,7 +73,7 @@ const AllCreativeWorks = () => {
       <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title'>
         {portfolios.map(({id , link , img , title , languages}) => (
             <div key={id} className='flex flex-col w-full sm:w-[calc(50%-30px)] lg:w-[calc(33%-30px)]'>
-              <a href={link} target='_blank' rel="noreferrer"><img src={img} alt={title} className='rounded-3xl w-full duration-200 hover:scale-105'/></a>
+              <a href={link} target='_blank' rel="noreferrer"><img src={img} alt={title} className='rounded-3xl w-full duration-200 hover:scale-105 hover:shadow-md'/></a>
               <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
               <div className='flex justify-between '>
                 {languages.map((language , index) => (
