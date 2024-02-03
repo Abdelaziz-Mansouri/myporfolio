@@ -4,6 +4,7 @@ import ABHM from '../assets/Dashboard.png'
 import Movie from '../assets/Home1.png'
 import Elearning from '../assets/elearning.png'
 import Cyprog from '../assets/cyprog.png'
+import HooBank from '../assets/HooBank1.png'
 import {FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
 const AllCreativeWorks = () => {
@@ -58,6 +59,16 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>BOOTSTRAP</span><FaBootstrap size={24} fill='#712cf9'/></div>)
+      ]
+    },
+    {
+      id: 6,
+      link : '#' ,
+      img : HooBank,
+      title : 'HooBank',
+      languages : [
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>)
       ]
     },
   ]
