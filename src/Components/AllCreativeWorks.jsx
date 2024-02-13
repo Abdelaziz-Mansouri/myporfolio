@@ -7,6 +7,7 @@ import Cyprog from '../assets/cyprog.png'
 import HooBank from '../assets/HooBank1.png'
 import {FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
+import Card from './Card'
 const AllCreativeWorks = () => {
   const portfolios = [
     {
@@ -81,17 +82,23 @@ const AllCreativeWorks = () => {
             <h2 className='font-signature text-center text-2xl sm:text-5xl w-full md:w-1/2'>All Creative Works Selected Project</h2>
             <p className='text-lg py-4 text-center w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
       </div>
-      <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title'>
+      <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title group'>
         {portfolios.map(({id , link , img , title , languages}) => (
-            <div key={id} className='flex flex-col w-full sm:w-[calc(50%-30px)] lg:w-[calc(33%-30px)]'>
-              <a href={link} target='_blank' rel="noreferrer"><img src={img} alt={title} className='rounded-3xl w-full duration-200 hover:scale-105 hover:shadow-md'/></a>
-              <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
-              <div className='flex justify-between '>
-                {languages.map((language , index) => (
-                  <div key={index} className='bg-primary02 rounded-md text-[12px] md:text-sm'>{language}</div>
-                ))}
-              </div>
-            </div>
+            <Card 
+            key={id} 
+            link={link}
+            img={img} 
+            title={title}
+            languages ={languages}/>
+            // <div key={id} className='flex flex-col w-full sm:w-[calc(50%-30px)] lg:w-[calc(33%-30px)] group-hover:blur-sm hover:!blur-none group-hover:scale-[0.90] hover:!scale-105 duration-500 hover:shadow-md'>
+            //   <a href={link} target='_blank' rel="noreferrer"><img src={img} alt={title} className='rounded-3xl w-full '/></a>
+            //   <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
+            //   <div className='flex justify-between '>
+            //     {languages.map((language , index) => (
+            //       <div key={index} className='bg-primary02 rounded-md text-[12px] md:text-sm'>{language}</div>
+            //     ))}
+            //   </div>
+            // </div>
         ))}
       </div>
     </div>
