@@ -1,6 +1,7 @@
 import React from 'react'
-import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
-import {SiJavascript , SiTailwindcss} from 'react-icons/si'
+import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap , FaPython} from 'react-icons/fa'
+import {SiJavascript , SiTailwindcss , SiCsharp} from 'react-icons/si'
+import { DiMsqlServer } from "react-icons/di";
 const Skills = () => {
 
     const skills = [
@@ -51,6 +52,27 @@ const Skills = () => {
             title : 'GitHub',
             rate : 80,
             style : 'shadow-[#f6f8fa]'
+        },
+        {
+            id: 7,
+            img : (<><SiCsharp fill='#5d438e' size={40}/></>) ,
+            title : 'C#',
+            rate : 70,
+            style : 'shadow-[#5d438e]'
+        },
+        {
+            id: 8,
+            img : (<><DiMsqlServer fill='#b01d24' size={40}/></>) ,
+            title : 'Sql Server',
+            rate : 90,
+            style : 'shadow-[#dadcdf]'
+        },
+        {
+            id: 9,
+            img : (<><FaPython fill='#306998' size={40}/></>) ,
+            title : 'Python',
+            rate : 60,
+            style : 'shadow-[#FFD43B]'
         },
       ]
   return (
