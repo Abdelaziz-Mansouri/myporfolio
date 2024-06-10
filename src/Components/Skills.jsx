@@ -74,6 +74,13 @@ const Skills = () => {
             rate : 60,
             style : 'shadow-[#FFD43B]'
         },
+        {
+            id: 10,
+            img : (<><FaReact fill='#61dafb' size={40}/></>) ,
+            title : 'React Native',
+            rate : 80,
+            style : 'shadow-[#61dafb]'
+        },
       ]
   return (
     <div name="about" className='bg-primary xl:min-h-screen flex flex-col py-6 px-2 sm:px-24 md:px-28 text-title'>
