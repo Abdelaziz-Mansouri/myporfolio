@@ -45,7 +45,9 @@ const Header = () => {
           {nav ? <FaTimes size={30} /> : <FaBars size={30}/> }
         </div>
         {nav && 
-          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'>
+          <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'
+            data-aos="fade-down" 
+            data-aos-duration="1000">
             {
               links.map(({id , link }) => (
                 <li key={id} className='px-4  py-6 cursor-pointer capitalize text-4xl'>
