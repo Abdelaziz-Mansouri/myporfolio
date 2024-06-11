@@ -24,7 +24,7 @@ const Header = () => {
     }
   ]
   return (
-    <div className='h-20 bg-dark flex justify-between items-center text-title px-2 sm:px-24 md:px-28 w-full fixed z-[1000]'>
+    <div className='h-20 bg-dark flex justify-between items-center text-title px-2 sm:px-24 md:px-28 w-[100vw] fixed z-[1000]'>
         <LogoGradient width="50" height='50' 
           data-aos="zoom-in" 
           data-aos-duration="1000"

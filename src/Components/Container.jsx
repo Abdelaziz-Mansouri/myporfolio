@@ -9,7 +9,7 @@ import Footer from './Footer'
 import ScrollToTop from 'react-scroll-to-top'
 const Container = () => {
   return (
-    <div className='w-[100%] flex flex-col'>
+    <div className='w-full overflow-x-hidden flex flex-col'>
       <Header/>
       <Home/>
       <SocialLinks/>

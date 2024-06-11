@@ -26,7 +26,7 @@ const Home = () => {
                     data-aos="fade-up" 
                     data-aos-delay="200"
                     data-aos-duration="800">
-                    <Link className={`group ${style.primaryBotton} text-title`} to='portfolio' smooth duration={500}>
+                    <Link className={`group ${style.primaryBotton} text-title cursor-pointer`} to='portfolio' smooth duration={500}>
                         Portfolio
                         <span className='group-hover:rotate-90 duration-300'><MdOutlineKeyboardArrowRight size={25}/></span>
                     </Link>
