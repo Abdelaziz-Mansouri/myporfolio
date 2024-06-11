@@ -22,17 +22,26 @@ const Contact = () => {
     }
   return (
     <div name="contact" className="py-6 px-2 sm:px-24 md:px-28 relative bg-gradient-to-b from-primary via-dark to-dark flex flex-col justify-center">
-        <div className='flex justify-start py-6 text-title '>
-              <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>CONTACT</h2>
+        <div className='flex justify-start py-6 text-title '
+            data-aos="fade-right" 
+            data-aos-duration="2000"
+            data-aos-once="false">
+            <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>CONTACT</h2>
         </div>
         <div className="w-full">
             <div className="flex justify-between items-center w-full gap-8 flex-wrap">  
-                <div className='flex flex-col w-full md:w-[calc(50%-2rem)] text-title'>
+                <div className='flex flex-col w-full md:w-[calc(50%-2rem)] text-title'
+                    data-aos="fade-right" 
+                    data-aos-duration="2000"
+                    data-aos-once="false">
                     <p className='text-sm py-4'>A front-end developer knows he has achieved perfection not when there is nothing left <span className='bg-title text-primary'> to add </span> , but when there is nothing left to take away</p>
                     <p className='text-sm py-8 text-primary02'>There are three responses to a piece of design - yes, no, and WOW! Wow is the one to aim for</p>
                     <a href="//api.whatsapp.com/send?phone=212615322577" target='_blank' rel="noreferrer" className='text-primary underline text-lg'><h2 className=''>+21261532577</h2></a>
                 </div>
-                <div className="flex-1 w-full md:w-[calc(50%-2rem)]">
+                <div className="flex-1 w-full md:w-[calc(50%-2rem)]"
+                    data-aos="fade-left" 
+                    data-aos-duration="2000"
+                    data-aos-once="false">
                     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2 w-full text-title">
                         <div className="">
                             <input type='text' required  ref={name} name='user_name' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Name" />

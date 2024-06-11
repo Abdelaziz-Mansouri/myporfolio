@@ -20,7 +20,7 @@ const AllCreativeWorks = () => {
         (<div className='flex items-center gap-1 py-1 px-1'><span>HTML</span><FaHtml5 size={24} fill='#f06529'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>CSS</span><FaCss3 size={24} fill='#264de4'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>Javascript</span><SiJavascript size={24} fill='yellow'/></div>)
-      ]
+      ],
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>)
-      ]
+      ],
     },
     {
       id: 3,
@@ -40,7 +40,7 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>)
-      ]
+      ],
     },
     {
       id: 4,
@@ -51,7 +51,7 @@ const AllCreativeWorks = () => {
         (<div className='flex items-center gap-1 py-1 px-1'><span>HTML</span><FaHtml5 size={24} fill='#f06529'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>BOOTSTRAP</span><FaBootstrap size={24} fill='#712cf9'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>Javascript</span><SiJavascript size={24} fill='yellow'/></div>)
-      ]
+      ],
     },
     {
       id: 5,
@@ -61,7 +61,7 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>BOOTSTRAP</span><FaBootstrap size={24} fill='#712cf9'/></div>)
-      ]
+      ],
     },
     {
       id: 6,
@@ -71,7 +71,7 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>)
-      ]
+      ],
     },
     {
       id: 7,
@@ -81,20 +81,29 @@ const AllCreativeWorks = () => {
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>React Native</span><FaReact size={24} fill='#61dafb'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>CSS</span><FaCss3 size={24} fill='#264de4'/></div>)
-      ]
+      ],
     },
   ]
   return (
     <div name="portfolio" className='xl:min-h-screen bg-gradient-to-b from-primary via-dark to-primary flex flex-col justify-center py-6 px-2 sm:px-24 md:px-28'>
-      <div className='flex justify-start py-6 text-title '>
-            <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>PORTFOLIO</h2>
+      <div className='flex justify-start py-6 text-title '
+        data-aos="fade-up" 
+        data-aos-duration="200"
+        data-aos-once="false">
+        <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>PORTFOLIO</h2>
       </div>
-      <div className='flex flex-col md:flex-row justify-around items-center text-title py-6 px-10 sm:px-0'>
-            <h2 className='font-signature text-center text-2xl sm:text-5xl w-full md:w-1/2'>All Creative Works Selected Project</h2>
-            <p className='text-lg py-4 text-center w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
+      <div className='flex flex-col md:flex-row justify-around items-center text-title py-6 px-10 sm:px-0'
+        data-aos="fade-up" 
+        data-aos-duration="400"
+        data-aos-once="false">
+        <h2 className='font-signature text-center text-2xl sm:text-5xl w-full md:w-1/2'>All Creative Works Selected Project</h2>
+        <p className='text-lg py-4 text-center w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
       </div>
-      <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title group'>
-        {portfolios.map(({id , link , img , title , languages}) => (
+      <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title group'
+        data-aos="fade-up" 
+        data-aos-duration="800"
+        data-aos-once="false">
+        {portfolios.map(({id , link , img , title , languages }) => (
             <Card 
             key={id} 
             link={link}

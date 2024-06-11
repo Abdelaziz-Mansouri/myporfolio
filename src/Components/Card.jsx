@@ -2,7 +2,7 @@ import React from "react";
 import { motion, useMotionValue, useSpring, useTransform} from "framer-motion";
 
 
-const Card = (props) => {
+const Card = ({link , img , title , languages }) => {
 
     const x  = useMotionValue(0);
     const y = useMotionValue(0);
@@ -42,12 +42,12 @@ const Card = (props) => {
                 <a style={{
                     transform: "translateZ(50px)",
                     transformStyle: "preserve-3d",
-                    }} href={props.link} target='_blank' rel="noreferrer">
-                    <img src={props.img} alt={props.title} className='rounded-3xl w-full '/>
+                    }} href={link} target='_blank' rel="noreferrer">
+                    <img src={img} alt={title} className='rounded-3xl w-full '/>
                 </a>
-                <h2 className='text-md sm:text-xl w-full py-4'>{props.title}</h2>
+                <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
                 <div className='flex justify-between '>
-                    {props.languages.map((language , index) => (
+                    {languages.map((language , index) => (
                         <div key={index} className='bg-primary02 rounded-md text-[12px] md:text-sm'>{language}</div>
                     ))}
                 </div>

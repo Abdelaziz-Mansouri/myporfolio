@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import './App.css';
 import Container from './Components/Container';
 import { PropagateLoader } from 'react-spinners';
-
+import AOS from "aos";
+import "aos/dist/aos.css"
 function App() {
   const [loading , setLoading] = useState(false)
   useEffect(() => { 
@@ -11,7 +12,15 @@ function App() {
         setLoading(false)
        }, 2000)
    }, [])
-   
+   useEffect(() =>{
+    AOS.init({
+      offset :100 ,
+      duration : 800 ,
+      easing : "easi-in-sine",
+      delay :100
+    });
+    AOS.refresh();
+   } , [])
   return (
     <>
       

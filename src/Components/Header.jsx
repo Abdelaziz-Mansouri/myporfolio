@@ -7,26 +7,32 @@ const Header = () => {
   const links = [
     {
       id:1 ,
-      link: 'home'
+      link: 'home',
     },
     {
       id:2 ,
-      link: 'about'
+      link: 'about',
     },
     {
       id:3 ,
-      link: 'portfolio'
+      link: 'portfolio',
     },
     
     {
       id:4 ,
-      link: 'contact'
+      link: 'contact',
     }
   ]
   return (
     <div className='h-20 bg-dark flex justify-between items-center text-title px-2 sm:px-24 md:px-28 w-full fixed z-[1000]'>
-        <LogoGradient width="50" height='50'/>
-        <ul className='hidden md:flex gap-[10px]'>
+        <LogoGradient width="50" height='50' 
+          data-aos="zoom-in" 
+          data-aos-duration="1000"
+          data-aos-delay="200"/>
+        <ul className='hidden md:flex gap-[10px]' 
+          data-aos="zoom-in" 
+          data-aos-delay="200"
+          data-aos-duration="1000">
           {
             links.map(({id , link}) => (
               <li key={id} className='px-4 cursor-pointer capitalize font-medium hover:scale-150 duration-200 hover:text-primary'>
@@ -41,7 +47,7 @@ const Header = () => {
         {nav && 
           <ul className='flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-dark to-primary'>
             {
-              links.map(({id , link}) => (
+              links.map(({id , link }) => (
                 <li key={id} className='px-4  py-6 cursor-pointer capitalize text-4xl'>
                   <Link onClick={() => { setNav(!nav) }} to={link} smooth duration={500}>{link}</Link>
                 </li>
