@@ -19,9 +19,6 @@ function App() {
         AOS.refresh();
        }, 2000)
    }, [])
-  //  useEffect(() =>{
-    
-  //  } , [loading])
   return (
     <>
       
