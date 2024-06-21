@@ -41,7 +41,11 @@ const SocialLinks = () => {
         <ul className='w-full flex flex-col sm:flex-row md:flex-col justify-center'>
             {
                 links.map(({id , child , href ,style}) => ( 
-                    <li key={id} className={`flex justify-between items-center w-full sm:w-1/4 md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-dark md:bg-primary02 ${style} `}>
+                    <li 
+                        data-aos="fade-right" 
+                        data-aos-duration="800"
+                        data-aos-delay="100"
+                        key={id} className={`flex justify-between items-center w-full sm:w-1/4 md:w-40 h-14 px-4 md:ml-[-100px] md:hover:ml-[-10px] md:hover:rounded-md md:duration-300 bg-dark md:bg-primary02 ${style} `}>
                         <a href={href} target='_blank' rel='noreferrer' className={`flex justify-center gap-2 sm:gap-0 sm:justify-between items-center w-full text-title`}>
                             {child}
                         </a>

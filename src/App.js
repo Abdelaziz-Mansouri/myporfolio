@@ -9,18 +9,19 @@ function App() {
   useEffect(() => { 
       setLoading(true);
       setTimeout(() => { 
-        setLoading(false)
+        setLoading(false);
+        AOS.init({
+          offset :100 ,
+          duration : 800 ,
+          easing : "easi-in-sine",
+          delay :100
+        });
+        AOS.refresh();
        }, 2000)
    }, [])
-   useEffect(() =>{
-    AOS.init({
-      offset :100 ,
-      duration : 800 ,
-      easing : "easi-in-sine",
-      delay :100
-    });
-    AOS.refresh();
-   } , [])
+  //  useEffect(() =>{
+    
+  //  } , [loading])
   return (
     <>
       
