@@ -25,10 +25,12 @@ const Header = () => {
   ]
   return (
     <div className='h-20 bg-dark flex justify-between items-center text-title px-2 sm:px-24 md:px-28 w-[100vw] fixed z-[1000]'>
-        <LogoGradient width="50" height='50' 
-          data-aos="zoom-in" 
-          data-aos-duration="1000"
-          data-aos-delay="200"/>
+        <Link to='home' smooth duration={500} className='cursor-pointer'>
+          <LogoGradient width="50" height='50'  
+            data-aos="zoom-in" 
+            data-aos-duration="1000"
+            data-aos-delay="200"/>
+        </Link>
         <ul className='hidden md:flex gap-[10px]' 
           data-aos="zoom-in" 
           data-aos-delay="200"

@@ -1,5 +1,6 @@
 import React from 'react'
-import {FaGithub , FaLinkedin , FaInstagram} from 'react-icons/fa'
+import {FaGithub , FaLinkedin} from 'react-icons/fa'
+import { SiUpwork } from "react-icons/si";
 import {HiOutlineMail} from 'react-icons/hi'
 const SocialLinks = () => {
     const links =[
@@ -30,9 +31,9 @@ const SocialLinks = () => {
         {
             id:4 , 
             child :(
-                <>Instagram <FaInstagram size={30}/></>
+                <>Upwork <SiUpwork size={30}/></>
             ),
-            href : 'https://www.instagram.com/abdelaziz_mansouri48/',
+            href : 'https://www.upwork.com/freelancers/~01a253c8b5d0dbde88',
             style : 'md:rounded-br-md'
         }
     ]

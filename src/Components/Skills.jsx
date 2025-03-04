@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap , FaPython} from 'react-icons/fa'
+import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap , FaPython, FaLaravel} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss , SiCsharp} from 'react-icons/si'
 import { DiMsqlServer } from "react-icons/di";
 const Skills = () => {
@@ -40,7 +40,7 @@ const Skills = () => {
             id: 5,
             img : (<><SiTailwindcss fill='#38BDF8' size={40}/></>) ,
             title : 'Tailwind',
-            rate : 85,
+            rate : 95,
             style : 'shadow-[#38BDF8]',
             aosDelay : "1000"
         },
@@ -56,12 +56,12 @@ const Skills = () => {
             id: 7,
             img : (<><FaGithub fill='#f6f8fa' size={40}/></>) ,
             title : 'GitHub',
-            rate : 80,
+            rate : 90,
             style : 'shadow-[#f6f8fa]',
             aosDelay : "1400"
         },
         {
-            id: 7,
+            id: 8,
             img : (<><SiCsharp fill='#5d438e' size={40}/></>) ,
             title : 'C#',
             rate : 70,
@@ -69,7 +69,7 @@ const Skills = () => {
             aosDelay : "1600"
         },
         {
-            id: 8,
+            id: 9,
             img : (<><DiMsqlServer fill='#b01d24' size={40}/></>) ,
             title : 'Sql Server',
             rate : 90,
@@ -77,7 +77,7 @@ const Skills = () => {
             aosDelay : "1800"
         },
         {
-            id: 9,
+            id: 10,
             img : (<><FaPython fill='#306998' size={40}/></>) ,
             title : 'Python',
             rate : 60,
@@ -85,11 +85,19 @@ const Skills = () => {
             aosDelay : "2000"
         },
         {
-            id: 10,
+            id: 11,
             img : (<><FaReact fill='#61dafb' size={40}/></>) ,
             title : 'React Native',
             rate : 80,
             style : 'shadow-[#61dafb]',
+            aosDelay : "2200"
+        },
+        {
+            id: 12,
+            img : (<><FaLaravel fill='#FF2D20' size={40}/></>) ,
+            title : 'Laravel',
+            rate : 60,
+            style : 'shadow-[#FF2D20]',
             aosDelay : "2200"
         },
       ]
@@ -102,7 +110,7 @@ const Skills = () => {
             data-aos-once="false">
               <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>ABOUT</h2>
         </div>
-        <div className='text-md sm:text-2xl py-4 w-full px-10 sm:px-4 text-center leading-10'
+        <div className='text-md sm:text-2xl py-4 w-full px-10 sm:px-4 text-start leading-10'
             data-aos="fade-up" 
             data-aos-duration="800"
             data-aos-delay="400"

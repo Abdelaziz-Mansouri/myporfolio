@@ -1,18 +1,42 @@
 import React from 'react'
-import P2P from '../assets/p2p.png'
-import ABHM from '../assets/Dashboard.png'
-import Movie from '../assets/Home1.png'
-import Elearning from '../assets/elearning.png'
-import Cyprog from '../assets/cyprog.png'
-import HooBank from '../assets/HooBank1.png'
-import Nft from "../assets/nft.jpg"
-import {FaHtml5 , FaCss3 , FaReact , FaBootstrap} from 'react-icons/fa'
+import P2P from '../assets/p2p.webp'
+import ABHM from '../assets/Dashboard.webp'
+import Movie from '../assets/Home1.webp'
+import Elearning from '../assets/elearning.webp'
+import Cyprog from '../assets/cyprog.webp'
+import HooBank from '../assets/HooBank1.webp'
+import Nft from "../assets/nft.webp"
+import cliniquemoulouya from '../assets/cliniquemoulouya.webp'
+import foodlink from '../assets/foodlink.webp'
+import {FaHtml5 , FaCss3 , FaReact , FaBootstrap, FaLaravel} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss} from 'react-icons/si'
 import Card from './Card'
 const AllCreativeWorks = () => {
   const portfolios = [
     {
       id: 1,
+      link : 'https://foodlink.ma' ,
+      img : foodlink ,
+      title : 'Foodlink',
+      languages : [
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>Laravel</span><FaLaravel size={24} fill='#FF2D20'/></div>)
+      ],
+    },
+    {
+      id: 2,
+      link : 'https://cliniquemoulouya.ma' ,
+      img : cliniquemoulouya ,
+      title : 'Clinique Moulouya',
+      languages : [
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>Laravel</span><FaLaravel size={24} fill='#FF2D20'/></div>)
+      ],
+    },
+    {
+      id: 3,
       link : 'https://p2p.marrakechinvest.ma/' ,
       img : P2P ,
       title : 'Marrakech P2P',
@@ -23,27 +47,28 @@ const AllCreativeWorks = () => {
       ],
     },
     {
-      id: 2,
+      id: 4,
       link : '#' ,
       img : ABHM ,
       title : 'Information System',
       languages : [
-        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
-        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>)
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>)
+
       ],
     },
     {
-      id: 3,
+      id: 5,
       link : 'https://github.com/Abdelaziz-Mansouri/movies_projectv1.git' ,
       img : Movie,
       title : 'Movie 4 You',
       languages : [
-        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>),
-        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>)
+        (<div className='flex items-center gap-1 py-1 px-1'><span>React js</span><FaReact size={24} fill='#61dafb'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>)
       ],
     },
     {
-      id: 4,
+      id: 6,
       link : '#' ,
       img : Elearning,
       title : 'E-Learning',
@@ -54,7 +79,7 @@ const AllCreativeWorks = () => {
       ],
     },
     {
-      id: 5,
+      id: 7,
       link : 'https://abdelaziz-mansouri.github.io/cyprog' ,
       img : Cyprog,
       title : 'Cyprog gaming',
@@ -64,7 +89,7 @@ const AllCreativeWorks = () => {
       ],
     },
     {
-      id: 6,
+      id: 8,
       link : 'https://github.com/Abdelaziz-Mansouri/bank_modern_app1.git' ,
       img : HooBank,
       title : 'HooBank',
@@ -74,7 +99,7 @@ const AllCreativeWorks = () => {
       ],
     },
     {
-      id: 7,
+      id: 9,
       link : 'https://github.com/Abdelaziz-Mansouri/Nft-MarketPlace.git' ,
       img : Nft,
       title : 'NFT-Marketplace',
@@ -92,12 +117,12 @@ const AllCreativeWorks = () => {
         data-aos-once="false">
         <h2 className='font-signature text-4xl sm:text-7xl w-1/2 px-4'>PORTFOLIO</h2>
       </div>
-      <div className='flex flex-col md:flex-row justify-around items-center text-title py-6 px-10 sm:px-0'
+      <div className='flex flex-col md:flex-row justify-around items-center text-title py-6 px-10 sm:px-4'
         data-aos="fade-up" 
         data-aos-duration="400"
         data-aos-once="false">
-        <h2 className='font-signature text-center text-2xl sm:text-5xl w-full md:w-1/2'>All Creative Works Selected Project</h2>
-        <p className='text-lg py-4 text-center w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
+        <h2 className='font-signature text-start text-2xl sm:text-5xl w-full md:w-1/2'>All Creative Works Selected Project</h2>
+        <p className='text-lg py-4 text-start md:text-end w-full md:w-1/2'>Take a deep breath, then move towards <span className='bg-title text-primary'>success!</span><br/> NB; Don't care about anyone who tries to stop you</p>
       </div>
       <div className='flex flex-col flex-wrap w-full items-center justify-center h-full px-10 sm:px-4 sm:flex-row gap-[30px] text-title group'
         data-aos="fade-up" 
