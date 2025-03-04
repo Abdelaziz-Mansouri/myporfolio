@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/myporfolio/static/css/main.43983e32.css",
-    "main.js": "/myporfolio/static/js/main.b4d59b30.js",
-    "static/media/elearning.png": "/myporfolio/static/media/elearning.374456190dc78c0b013b.png",
+    "main.css": "/myporfolio/static/css/main.c74e15e8.css",
+    "main.js": "/myporfolio/static/js/main.e2c50a05.js",
     "static/media/profile4.png": "/myporfolio/static/media/profile4.7073269c7ae1d0d36072.png",
-    "static/media/cyprog.png": "/myporfolio/static/media/cyprog.494693b86585deddd5ba.png",
-    "static/media/HooBank1.png": "/myporfolio/static/media/HooBank1.639fdb11974b3b1f8bba.png",
-    "static/media/Home1.png": "/myporfolio/static/media/Home1.1018d35ae34fb2ee7b49.png",
-    "static/media/Dashboard.png": "/myporfolio/static/media/Dashboard.d0011832cd000cd9641f.png",
-    "static/media/nft.jpg": "/myporfolio/static/media/nft.f62e6d8db72911731edc.jpg",
-    "static/media/p2p.png": "/myporfolio/static/media/p2p.789ad507d4629774ac8b.png",
+    "static/media/elearning.webp": "/myporfolio/static/media/elearning.e7bd67c0a64f205b04f6.webp",
+    "static/media/cliniquemoulouya.webp": "/myporfolio/static/media/cliniquemoulouya.ead5a17c253a6ac55d9d.webp",
+    "static/media/Home1.webp": "/myporfolio/static/media/Home1.83ddda8fef168ec4448a.webp",
+    "static/media/cyprog.webp": "/myporfolio/static/media/cyprog.4789df11ff5a1ec7f117.webp",
+    "static/media/Dashboard.webp": "/myporfolio/static/media/Dashboard.595ae118b92ec158786c.webp",
+    "static/media/foodlink.webp": "/myporfolio/static/media/foodlink.dc60be284882bb62c63b.webp",
+    "static/media/nft.webp": "/myporfolio/static/media/nft.28bcacfe59ee57f5240a.webp",
+    "static/media/HooBank1.webp": "/myporfolio/static/media/HooBank1.d478e373418343df8fe0.webp",
+    "static/media/p2p.webp": "/myporfolio/static/media/p2p.2d5f0f3faa054c8d0899.webp",
     "static/media/gradient.svg": "/myporfolio/static/media/gradient.f50fd7ac2217fb0b85ce5138bf0ac2ac.svg",
     "static/media/gradien2.svg": "/myporfolio/static/media/gradien2.60a2b11866897aa6a34843fd93227e4a.svg",
     "static/media/white.svg": "/myporfolio/static/media/white.ec4fb92dc8f67c19270c802b2d5912b4.svg",
     "static/media/black.svg": "/myporfolio/static/media/black.c03504f0ab55f0480f51e59c7d82fad2.svg",
     "index.html": "/myporfolio/index.html",
-    "main.43983e32.css.map": "/myporfolio/static/css/main.43983e32.css.map",
-    "main.b4d59b30.js.map": "/myporfolio/static/js/main.b4d59b30.js.map"
+    "main.c74e15e8.css.map": "/myporfolio/static/css/main.c74e15e8.css.map",
+    "main.e2c50a05.js.map": "/myporfolio/static/js/main.e2c50a05.js.map"
   },
   "entrypoints": [
-    "static/css/main.43983e32.css",
-    "static/js/main.b4d59b30.js"
+    "static/css/main.c74e15e8.css",
+    "static/js/main.e2c50a05.js"
   ]
 }
