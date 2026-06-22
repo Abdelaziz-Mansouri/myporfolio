@@ -43,7 +43,7 @@ const Card = ({link , img , title , languages }) => {
                     transform: "translateZ(50px)",
                     transformStyle: "preserve-3d",
                     }} href={link} target='_blank' rel="noreferrer">
-                    <img src={img} alt={title} className='rounded-3xl w-full '/>
+                    <img loading="lazy" src={img} alt={title} className='rounded-3xl w-full '/>
                 </a>
                 <h2 className='text-md sm:text-xl w-full py-4'>{title}</h2>
                 <div className='flex justify-between '>

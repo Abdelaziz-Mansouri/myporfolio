@@ -36,18 +36,18 @@ const Home = () => {
                 <div className='' 
                     
                     >
-                    <img src={Profile} alt='Abdelaziz Mansouri' className='bg-dark rounded-full w-full ' 
+                    <img loading="lazy" src={Profile} alt='Abdelaziz Mansouri' className='bg-dark rounded-full w-full ' 
                         data-aos="fade-up" 
                         data-aos-duration="800"
                         data-aos-delay="200"/>
                     <div className='relative'>
-                        <div className='hidden md:absolute md:bottom-[150px] md:left-[-120px] md:flex justify-between items-center bg-gradient-to-l from-dark via-dark to-primary text-title w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'
+                        <div className='hidden md:absolute md:bottom-[300px] lg:bottom-[150px] md:-left-[100px] lg:-left-[120px] xl:-left-[90px] xxl:bottom-[350px] xxl:left-[-120px] md:flex justify-between items-center bg-gradient-to-l from-dark via-dark to-primary text-title w-[170px] h-16 px-4 rounded-2xl drop-shadow-2xl'
                             data-aos="fade-right" 
                             data-aos-duration="800"
                             data-aos-delay="200">
-                            <h2 className='text-4xl'>02</h2>
+                            <h2 className='text-4xl'>&lt;1</h2>
                             <div className='flex flex-col '>
-                                <p>Years of </p>
+                                <p>Year of </p>
                                 <p>Experience</p>
                             </div>
                         </div>

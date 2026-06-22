@@ -17,7 +17,7 @@ const Container = () => {
       <AllCreativeWorks/>
       <Contact/>
       <Footer/>
-      <ScrollToTop className='!bg-title !rounded-full !flex !items-center !justify-center !transition-all !duration-2000' color='#0f9b0f'  smooth top={400} />
+      <ScrollToTop className='!bg-title !rounded-full !flex !items-center !justify-center !transition-all !duration-2000 animate-bounce' color='#0f9b0f'  smooth top={400} />
     </div>
   )
 }

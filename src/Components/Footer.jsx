@@ -7,9 +7,9 @@ const Footer = () => {
             <span className="leading-none flex items-center justify-center text-center gap-1 text-paragraph dark:text-dark-75">
                 
                 <span className="font-extralight text-sm md:text-xs md:text-center">
-                    &copy; 2023 Abdelaziz Mansouri is Powered by  
-                    <a href="https://www.upwork.com/freelancers/~01a253c8b5d0dbde88" target="_blank" rel="noreferrer" className="text-primary underline hover:brightness-105">
-                        ABDELAZIZ
+                    &copy; 2025 Portfolio is Powered by  
+                    <a href="https://www.upwork.com/freelancers/~01a253c8b5d0dbde88" target="_blank" rel="noreferrer" className="text-primary underline hover:brightness-105 px-2">
+                        MANSOURI ABDELAZIZ
                     </a>
                 </span>
             </span>

@@ -35,7 +35,9 @@ const Contact = () => {
                     data-aos-duration="2000"
                     data-aos-once="false">
                     <p className='text-sm py-4'>A front-end developer knows he has achieved perfection not when there is nothing left <span className='bg-title text-primary'> to add </span> , but when there is nothing left to take away</p>
-                    <p className='text-sm py-8 text-primary02'>There are three responses to a piece of design - yes, no, and WOW! Wow is the one to aim for</p>
+                    <div className='py-8'>
+                        <p className='text-sm bg-white text-primary w-fit pr-2'>There are three responses to a piece of design - yes, no, and WOW! Wow is the one to aim for.</p>
+                    </div>
                     <a href="//api.whatsapp.com/send?phone=212615322577" target='_blank' rel="noreferrer" className='text-primary underline text-lg'><h2 className=''>+21261532577</h2></a>
                 </div>
                 <div className="flex-1 w-full md:w-[calc(50%-2rem)]"
@@ -44,14 +46,14 @@ const Contact = () => {
                     data-aos-once="false">
                     <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-2 w-full text-title">
                         <div className="">
-                            <input type='text' required  ref={name} name='user_name' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Name" />
+                            <input type='text' required  ref={name} name='user_name' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-50 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Name" />
                         </div>
                         <div className="">
-                            <input type="email" required ref={email} name='user_email' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Email" />
+                            <input type="email" required ref={email} name='user_email' className="border border-paragraph border-opacity-10 rounded-lg outline-none bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-50 placeholder:font-light duration-500 transition-all focus:border-opacity-100" placeholder="Email" />
                         </div>
                         <div className="">
                             <textarea rows="4" name='message' className="border border-paragraph border-opacity-10 rounded-lg outline-none
-                                bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-30 
+                                bg-transparent p-4 w-full placeholder:text-paragraph placeholder:text-opacity-50 
                                 placeholder:font-light duration-500 transition-all focus:border-opacity-100" 
                                 placeholder="Your Message"
                             ></textarea>
