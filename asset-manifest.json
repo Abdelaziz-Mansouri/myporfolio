@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/myporfolio/static/css/main.bef5ecb6.css",
-    "main.js": "/myporfolio/static/js/main.8eb0086e.js",
+    "main.js": "/myporfolio/static/js/main.85a32094.js",
     "static/media/profile4.png": "/myporfolio/static/media/profile4.7073269c7ae1d0d36072.png",
     "static/media/elearning.webp": "/myporfolio/static/media/elearning.e7bd67c0a64f205b04f6.webp",
     "static/media/cliniquemoulouya.webp": "/myporfolio/static/media/cliniquemoulouya.ead5a17c253a6ac55d9d.webp",
@@ -19,10 +19,10 @@
     "static/media/black.svg": "/myporfolio/static/media/black.c03504f0ab55f0480f51e59c7d82fad2.svg",
     "index.html": "/myporfolio/index.html",
     "main.bef5ecb6.css.map": "/myporfolio/static/css/main.bef5ecb6.css.map",
-    "main.8eb0086e.js.map": "/myporfolio/static/js/main.8eb0086e.js.map"
+    "main.85a32094.js.map": "/myporfolio/static/js/main.85a32094.js.map"
   },
   "entrypoints": [
     "static/css/main.bef5ecb6.css",
-    "static/js/main.8eb0086e.js"
+    "static/js/main.85a32094.js"
   ]
 }
