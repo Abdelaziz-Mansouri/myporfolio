@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap , FaPython} from 'react-icons/fa'
+import {FaGithub , FaHtml5 , FaCss3 , FaReact , FaBootstrap , FaPython, FaLaravel} from 'react-icons/fa'
 import {SiJavascript , SiTailwindcss , SiCsharp} from 'react-icons/si'
 import { DiMsqlServer } from "react-icons/di";
 const Skills = () => {
@@ -90,6 +90,14 @@ const Skills = () => {
             title : 'React Native',
             rate : 80,
             style : 'shadow-[#61dafb]',
+            aosDelay : "2200"
+        },
+        {
+            id: 11,
+            img : (<><FaLaravel fill='#EF3B2D' size={40}/></>) ,
+            title : 'Laravel',
+            rate : 50,
+            style : 'shadow-[#EF3B2D]',
             aosDelay : "2200"
         },
       ]
