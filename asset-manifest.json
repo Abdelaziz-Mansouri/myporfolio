@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/myporfolio/static/css/main.c74e15e8.css",
-    "main.js": "/myporfolio/static/js/main.e2c50a05.js",
+    "main.css": "/myporfolio/static/css/main.bef5ecb6.css",
+    "main.js": "/myporfolio/static/js/main.8eb0086e.js",
     "static/media/profile4.png": "/myporfolio/static/media/profile4.7073269c7ae1d0d36072.png",
     "static/media/elearning.webp": "/myporfolio/static/media/elearning.e7bd67c0a64f205b04f6.webp",
     "static/media/cliniquemoulouya.webp": "/myporfolio/static/media/cliniquemoulouya.ead5a17c253a6ac55d9d.webp",
     "static/media/Home1.webp": "/myporfolio/static/media/Home1.83ddda8fef168ec4448a.webp",
     "static/media/cyprog.webp": "/myporfolio/static/media/cyprog.4789df11ff5a1ec7f117.webp",
+    "static/media/ausbildungassistant.webp": "/myporfolio/static/media/ausbildungassistant.fb28ef6be236f1caeace.webp",
     "static/media/Dashboard.webp": "/myporfolio/static/media/Dashboard.595ae118b92ec158786c.webp",
     "static/media/foodlink.webp": "/myporfolio/static/media/foodlink.dc60be284882bb62c63b.webp",
     "static/media/nft.webp": "/myporfolio/static/media/nft.28bcacfe59ee57f5240a.webp",
@@ -17,11 +18,11 @@
     "static/media/white.svg": "/myporfolio/static/media/white.ec4fb92dc8f67c19270c802b2d5912b4.svg",
     "static/media/black.svg": "/myporfolio/static/media/black.c03504f0ab55f0480f51e59c7d82fad2.svg",
     "index.html": "/myporfolio/index.html",
-    "main.c74e15e8.css.map": "/myporfolio/static/css/main.c74e15e8.css.map",
-    "main.e2c50a05.js.map": "/myporfolio/static/js/main.e2c50a05.js.map"
+    "main.bef5ecb6.css.map": "/myporfolio/static/css/main.bef5ecb6.css.map",
+    "main.8eb0086e.js.map": "/myporfolio/static/js/main.8eb0086e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c74e15e8.css",
-    "static/js/main.e2c50a05.js"
+    "static/css/main.bef5ecb6.css",
+    "static/js/main.8eb0086e.js"
   ]
 }
