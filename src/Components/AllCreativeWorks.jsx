@@ -10,7 +10,7 @@ import cliniquemoulouya from '../assets/cliniquemoulouya.webp'
 import foodlink from '../assets/foodlink.webp'
 import ausbildungassistant from '../assets/ausbildungassistant.webp'
 import {FaHtml5 , FaCss3 , FaReact , FaBootstrap, FaLaravel} from 'react-icons/fa'
-import {SiJavascript , SiTailwindcss, SiNextdotjs } from 'react-icons/si'
+import {SiJavascript , SiTailwindcss, SiNextdotjs, SiTypescript } from 'react-icons/si'
 import Card from './Card'
 const AllCreativeWorks = () => {
   const portfolios = [
@@ -21,6 +21,7 @@ const AllCreativeWorks = () => {
       title : 'Ausbildung Assistant',
       languages : [
         (<div className='flex items-center gap-1 py-1 px-1'><span>Next js</span><SiNextdotjs  size={24} fill='#000'/></div>),
+        (<div className='flex items-center gap-1 py-1 px-1'><span>Typescript</span><SiTypescript  size={24} fill='#3178C6'/></div>),
         (<div className='flex items-center gap-1 py-1 px-1'><span>TailwindCss</span><SiTailwindcss size={24} fill='#38BDF8'/></div>)
       ],
     },
